@@ -1,0 +1,109 @@
+#header{
+	height: 144px;
+	background: #fff;
+	border-top: 1px solid #ccc;
+}
+.nav-search{
+	height: 104px;
+}
+.search-img{
+	float: left;
+	margin-top: 25px;
+}
+.search-sousuo{
+	float: left;
+	width: 478px;
+	height: 30px;
+	border: 2px solid #459d36;
+	margin-left: 109px;
+	margin-top: 25px;
+	/*overflow: hidden;*/
+}
+.search-txt{
+	width: 392px;
+	height: 30px;
+	color: #ccc;
+	border: 0;
+	float: left;
+	padding: 0 5px;
+}
+.search-btn{
+	width: 76px;
+	height: 30px;
+	border: 0;
+	background: #459D36;
+	color: #FFF;
+	float: left;
+	cursor: pointer;
+}
+.search-call{
+	float: left;
+		margin-top: 25px;
+	margin-left: 60px;
+}
+.search-sousuo p{
+	margin-top: 40px;
+	color: #666;
+	height: 12px;
+	clear: both;
+	display: block;
+}
+.search-sousuo p a{
+	padding-left: 12px;
+	padding-right: 12px;
+	border-right: solid #ccc 1px;
+	color: #666;
+}
+.search-sousuo p a.last{
+	border-right: 0;
+}
+.nav-list{
+	float: left;
+	height: 34px;
+	width:700px ;
+}
+.nav-list li{
+	float: left;
+	width: 114px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+}
+.nav-list li img{
+	margin-right: 5px;
+}
+.nav-list li a{
+	font-size: 14px;
+	font-weight: bold;
+}
+.app{
+	float: right;
+	margin-right: 42px;
+}
+
+.dog{
+	background: #fff;
+}
+.sort{
+	background: #99d4ff;
+}
+.hot .rotate,.tejia .rotate{
+	transition: all 0.3s;
+}
+.dog .rotate,.sort .rotate{
+	display: inline-block;
+	transition: all 1s;
+}
+.dog:hover .rotate{
+	transform:rotate(180deg);
+}
+.sort:hover .rotate{
+	transform:rotate(180deg);
+}
+.tejia:hover .rotate{
+	transform:rotate(360deg);
+}
+.hot:hover .rotate{
+	transform:rotate(360deg);
+}
+

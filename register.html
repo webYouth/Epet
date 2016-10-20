@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新用户注册</title>
+		<script type="text/javascript" src="js/public-js/jquery-1.11.3.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/public-css/public-clear.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script type="text/javascript" src="js/register.js" ></script>
+		<script type="text/javascript" src="js/yanzheng.js" ></script>
+	</head>
+	<body>
+		<div id="register-header">
+			<div class="header-left">
+				<a href="index.html"><img src="img/register/cart-logo.png"/></a>
+				<ul>
+					<li>欢迎注册</li>
+				</ul>
+			</div>
+			<div class="header-right">
+				<span>已有账号？</span>
+				<a href="login.html" class="link-login">登录</a>
+			</div>
+		</div>
+		<form action="register.html" method="post">
+		<div id="register-text">
+			<!--=========手机号=============-->
+			<div class="phone rela">
+				<div class="phone-left mb">
+					<span class="textleft">手机号：</span>
+				</div>
+				<div class="phone-center mc">
+					 <input type="text" class="phone-inp wrin" placeholder="请输入手机号码" />
+				</div>
+				<div class="phone-right mr">
+					<span class="phone-ok" style="display: none;"><img src="img/register/ok_03.jpg"></span>
+					<span class="phone-error" style="display: none;">请输入11位电话号码</span>
+				</div>
+			</div>
+			<!--===========验证码===================-->
+			<div class="cen-nav rela">
+               <div class="cen-nav-left mb">
+               		<span class="textleft">验证码：</span>
+               </div>
+                <div class="code mc">
+                    <input class="cen-code wrin" type="text" placeholder="请输入验证码">
+                    <!--<img src="https://authcode.jd.com/verify/image?a=0&acid=cf0387b0-49a9-4f99-9037-02dacb09fd3a&uid=cf0387b0-49a9-4f99-9037-02dacb09fd3a&srcid=reg&is=29bc7d35bd9c68b2c5187692755538fe&yys=1470966814689">-->
+                    	<div class="yanzh">
+                    		<span></span>
+                    	</div>
+                    <p class="yanzheng">看不清？点击图片更换验证码</p>
+                </div>
+                <div class="cen-nav-right mr">
+                	<span class="yan-ok" style="display: none;"><img src="img/register/ok_03.jpg"></span>
+					<span class="yan-error" style="display: none;">请输入4位验证码</span>
+                </div>
+            </div>
+            <!--=================短信验证=====================-->
+           <div class="duanxin rela">
+				<div class="duanxin-left mb">
+					<span class="textleft">短信验证码：</span>
+				</div>
+				<div class="duanxin-center mc">
+					 <input type="text" class="duanxin-inp wrin" placeholder="点击获取验证码，无需短信" />
+					 <div class="duanxin-btn">
+					 	<a href="javascript:;">获取验证码</a>
+					 </div>
+				</div>
+				<div class="duanxin-right mr">
+					<span class="duanxin-ok" style="display: none;"><img src="img/register/ok_03.jpg"></span>
+					<span class="duanxin-error" style="display: none; color: #ddd;">点击获取短信验证码</span>
+				</div>
+			</div>
+			<!--================用户名=================-->
+			<div class="reguser rela">
+				<div class="reguser-left mb">
+					<span class="textleft">用户名：</span>
+				</div>
+				<div class="reguser-center mc">
+					 <input type="text" class="reguser-inp wrin" placeholder="字母开头，6-11位，数字字母下划线组成！" />
+				</div>
+				<div class="reguser-right mr">
+					<span class="reguser-ok" style="display: none;"><img src="img/register/ok_03.jpg"></span>
+					<span class="reguser-error" style="display: none;">用户名包含非法符号</span>
+				</div>
+			</div>
+			<!--=====================密码============================-->
+			<div class="regpass rela">
+				<div class="regpass-left mb">
+					<span class="textleft">密码：</span>
+				</div>
+				<div class="regpass-center mc">
+					 <input type="text" class="regpass-inp wrin" placeholder="请输入密码" />
+				</div>
+				<div class="regpass-right mr">
+					<span class="regpass-ok" style="display: none;"><img src="img/register/ok_03.jpg"></span>
+					<span class="regpass-error" style="display: none;">请输入8-20位密码</span>
+				</div>
+			</div>
+			<!--=====================确认密码=========================-->
+			<div class="regrepass rela">
+				<div class="regrepass-left mb">
+					<span class="textleft">确认密码：</span>
+				</div>
+				<div class="regrepass-center mc">
+					 <input type="text" class="regrepass-inp wrin" placeholder="请输入确认密码" />
+				</div>
+				<div class="regrepass-right mr">
+					<span class="regrepass-ok"style="display: none;"><img src="img/register/ok_03.jpg"></span>
+					<span class="regrepass-error" style="display: none;">请输入确认密码</span>
+				</div>
+			</div>
+           	<div class="mb Pwdqiangdu">
+                    <input name="agrement" type="checkbox">
+                    <span class="Xieyi ft14">我已阅读并接受E宠<a href="http://www.epet.com/article37.html" target="_blank">《用户使用协议》</a></span>
+            </div>
+                <a class="Otherregister" id="submit" name="submit" style="cursor: pointer;" onclick="">立即注册</a>
+		</div>
+	</form>
+		<!--===========================脚部=====================================-->
+		<div class="bgwhite">
+    		<div class="Registerfooter">
+		        <a class="c999" href="#">E宠商城  |</a>
+		        <a class="c999" href="#" >淘宠  |</a>
+		        <a class="c999" href="#" >知识  |</a>
+		        <a class="c999" href="#" >游戏  |</a>
+		        <a class="c999" href="#" >关于我们  |</a>
+		        <a class="c999" href="#" >联系我们 </a>
+		        <p class="c999 ftc">渝ICP备13005525号-2 &nbsp; 渝ICP备 10002905 &nbsp;增值电信业务经营许可证：渝B2-20140042 &nbsp; Copyright © 2007-2016 epet.com &nbsp;重庆易宠科技有限公司</p>
+		    </div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,139 @@
+#top{
+	background: #F5F5F5;
+}
+.top-wrap{
+	height: 28px;
+	background: #F5F5F5;
+	margin:0 auto;
+}
+.top-left{
+	height: 28px;
+	float:left;
+}
+.zhenpin{
+	margin-right: 10px;
+	height: 28px;
+	float:left;
+}
+.zhenpin a{
+	line-height: 28px;
+	color: #ff6600;
+}
+.zhenpin a:hover{
+	color: #248DCC;
+}
+.pinjia{
+		float:left;
+		height: 28px;
+}
+.pinjia a{
+	line-height: 28px;
+	color: #ff6600;
+}
+.pinjia a:hover{
+	color: #248DCC;
+}
+.top-right{
+	float: right;
+	height: 28px;
+}
+.top-right ul{
+	height: 28px;
+}
+.top-right ul li{
+	float: left;
+	height: 28px;
+	margin-right: 14px;
+}
+.top-right ul li img{
+	margin-right: 3px;
+}
+.top-right ul li a{
+	line-height: 28px;
+}
+.user{
+	position: relative;
+}
+.user ul{
+	width: 72px;
+	height: 120px;
+	background: #fff;
+	display: none;
+	position: absolute;
+	top: 28px;
+}
+.user ul li{
+	width: 72px;
+	text-align: center;
+}
+.user:hover .rotate{
+	transform:rotate(180deg);
+}
+.li-col:hover .rotate{
+	transform:rotate(180deg);
+}
+.li-col{
+	position: relative;
+}
+.collection{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 28px;
+	left: -80px;
+	background: #fff;
+	display: none;
+}
+.col-folder{
+	display: block;
+	width: 60px;
+	height: 20px;
+	background: url(../../img/bg-btn.jpg) repeat-x;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top:10px;
+	line-height: 20px;
+}
+.col-desk{
+	display: block;
+	width: 60px;
+	height: 20px;
+	background: url(../../img/bg-btn.jpg) repeat-x;
+	float: left;
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

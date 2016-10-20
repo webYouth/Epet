@@ -1,0 +1,226 @@
+body{
+	font-size:14px;
+	background: #fff;
+}
+#register-header{
+	height: 120px;
+	border-bottom: 1px solid #ccc;
+}
+.header-left{
+	float: left;
+	width: 230px;
+	margin-top: 35px;
+	margin-left: 100px;
+}
+.header-left a{
+	float: left;
+}
+.header-left ul{
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.header-left ul li{
+	list-style: square;
+	font-size: 18px;
+	font-weight: bold;
+}
+.header-right{
+	float: right;
+	margin-top: 45px;
+	margin-right: 100px;
+}
+.header-right a{
+	color: #248DCC;
+}
+#register-text{
+	width: 690px;
+	height: 550px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.rela{
+	width: 690px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.rela .mb{
+	float: left;
+	line-height: 50px;
+	width: 85px;
+}
+.rela .mb a{
+	float: right;
+}
+.wrin{
+	border-radius: 5px;
+	border: 0;
+}
+.rela .mc{
+	float: left;
+	width: 412px;
+	height: 50px;
+	border-radius: 5px;
+	border:1px solid #CCCCCC;
+	color:#fff3d9;
+}
+.rela .mr{
+	width: 150px;
+	height: 50px;
+	background:#fff;
+	text-align: center;
+	line-height: 50px;
+	color: red;
+	float: right;
+}
+.phone-inp{
+	width: 412px;
+	height: 50px;
+	border:0;
+}
+.cen-code{
+	height: 50px;
+	width: 100px;
+	border:0;
+	float: left;
+	/*margin-top:-10px;*/
+}
+.code img{
+	display: block;
+	margin-top:6px;
+	float: left;
+}
+.code p{
+	color: #444444;
+	margin-top: 6px;
+	width: 100px;
+	float: left;
+}
+.duanxin-inp{
+	width: 302px;
+	height: 50px;
+	float: left;
+}
+.duanxin-btn{
+	width: 98px;
+	height: 50px;
+	float: left;
+	border: 1px solid #4bd1a4;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 10px;
+		border-radius: 5px;
+}
+.duanxin-btn:hover{
+	background: #4BD1A4;
+}
+.duanxin-btn a:hover{
+	color: #fff;
+}
+.duanxin-btn a{
+	color:#ccc;
+	display: block;
+	width: 98px;
+	height: 50px;
+
+}
+.reguser-inp{
+	width: 412px;
+	height: 50px;
+	border: 0;
+}
+.regpass-inp{
+	width: 412px;
+	height: 50px;
+	border: 0;
+}
+.regrepass-inp{
+	width: 412px;
+	height: 50px;
+	border: 0;
+}
+.Pwdqiangdu{
+	margin-left: 85px;
+}
+.Otherregister{
+	display: block;
+	margin-left: 85px;
+	width: 412px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #ededed;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.bgwhite{
+		border-top:1px solid #ccc;
+}
+.Registerfooter{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 40px;
+}
+.Registerfooter p{
+	font-size: 12px;
+	color: #444;
+}
+.yanzh{
+	background: #666;
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	float: left;
+}
+.yanzh span{
+	color: #fff;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+
+.pay-content{
+	background: #fff;
+}
+.content-top{
+	overflow: hidden;
+}
+.content-logo{
+	width: 127px;
+	float: left;
+}
+.pagename{
+	font-size: 22px;
+	line-height: 60px;
+	float: left;
+	margin-left: 10px;
+	color: #333;
+}
+.content-bank{
+	margin-top: 30px;
+	background: #F5F5F5;
+	padding: 20px;
+}
+.congradulation{
+	margin: 0 20px 10px;
+	padding: 0 0 10px 80px;
+	position: relative;
+	overflow: hidden;
+}
+.succco{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 51px;
+	height: 51px;
+	display: inline-block;
+	background: url(../img/statusIco.png) no-repeat 0 0;
+}
+.word{
+	float: left;
+}
+.p1{
+	font-size: 16px;
+	margin-top: 5px;
+}
+.p2{
+	margin-top: 5px;
+	color: #666666;
+}
+.p2-sp{
+	color: #FF0000;
+}
+.word-two{
+	float: right;
+	margin-top: 5px;
+}
+.word-two p{
+	margin-top: 5px;
+	color: #666666;
+	font-size: 14px;
+}
+.bkprice{
+	color: #ff5d5b;
+	margin: 0 5px;
+	font-size: 28px;
+}
+.remind{
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0 20px 10px;
+	padding: 0 0 20px 80px;
+	color: #666;
+}
+.remind span{
+	color: #ff0000;
+}
+.pay-bank{
+	margin: 20px;
+	padding: 20px 50px;
+	position: relative;
+	border: 1px solid #eee;
+	background: #fff;
+}
+.bank-title{
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+}
+.bank-title b{
+	color: #ff5d5b;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.bank-title span{
+	margin-left: 20px;
+	color: #999;
+	cursor: pointer;
+}
+.bank-choose{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+}
+.alipay{
+	margin-left: 25px;
+	padding-top: 20px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.alipay ul{
+	display: inline-block;
+	list-style: outside none none;
+	width: 100%;
+}
+.alipay ul li{
+	border-top: 1px dotted #ccc;
+	padding: 15px 10px;
+}
+.alipay ul li span{
+	height: 28px;
+	width: 125px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url(../img/bank-logo.png) no-repeat 0 -1202px;
+}
+.bank-choose h1{
+	padding-left: 30px;
+	color: #323232;
+	font-weight: bold;
+	font-size: 16px;
+}
+.bank-choose h1 span{
+	margin-left: 5px;
+	color: #999;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

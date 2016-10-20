@@ -1,0 +1,280 @@
+body{
+	font-size:14px;
+	background: #fff;
+}
+#register-header{
+	height: 120px;
+	border-bottom: 1px solid #ccc;
+}
+.header-left{
+	float: left;
+	width: 230px;
+	margin-top: 35px;
+	margin-left: 100px;
+}
+.header-left a{
+	float: left;
+}
+.header-right{
+	float: right;
+	margin-top: 45px;
+	margin-right: 100px;
+}
+.header-right li{
+	float: left;
+	padding-right: 9px;
+	padding-left: 9px;
+	border-right: 1px #ccc solid;
+}
+.header-right li.last{
+	border-right: 0;
+}
+.bgwhite{
+		border-top:1px solid #ccc;
+}
+.Registerfooter{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 40px;
+}
+.Registerfooter p{
+	font-size: 12px;
+	color: #444;
+}
+#login-center{
+	height:630px;
+	background: url(../img/login/logbg3.jpg) no-repeat -350px;
+	position: relative;
+}
+.login-main{
+	position: absolute;
+	left: 765px;
+	top: 72px;
+	background: #fff;
+	width: 412px;
+}
+.login-select{
+	width: 340px;
+	height: 52px;
+	line-height: 52px;
+	margin: 0 auto;
+}
+.actaul{
+	float: left;
+	width: 170px;
+	height: 52px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.pho{
+	float: left;
+	width: 170px;
+	height: 52px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.login-text-actual{
+	width: 340px;
+	margin: 20px auto;
+}
+.user{
+	width: 338px;
+	height: 45px;
+	border: 1px solid #ccc;
+}
+.user-bg-img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../img/login/username.jpg) no-repeat;
+	float: left;
+}
+.inp-user{
+	width: 293px;
+	height: 45px;
+	float: left;
+	border:0;
+}
+.pass{
+	margin-top: 20px;
+	width: 338px;
+	height: 45px;
+	border: 1px solid #ccc;
+}
+.inp-pass{
+	width: 293px;
+	height: 45px;
+	float: left;
+	border:0;
+}
+.pass-bg-img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../img/login/pwd.jpg) no-repeat;
+	float: left;
+}
+.check{
+	width: 340px;
+	margin-top: 24px;
+}
+.check .check-box{
+	float: left;
+}
+.check a{
+	float: right;
+}
+.btn{
+	width:340px;
+	height: 50px;
+	background: url(../img/login/left.jpg) no-repeat;
+	text-align: center;
+	line-height:50px;
+	margin-top: 24px;
+}
+.btn a{
+	height: 50px;
+	width: 332px;
+	font-size: 18px;
+	color: #fff;
+	background: url(../img/login/center.jpg) repeat-x;
+	float: left;
+	margin-left: 4px;
+}
+.btn .right{
+	float: right;
+	padding-right:4px;
+	height: 50px;
+	background: url(../img/login/right.jpg) no-repeat;
+}
+.noreg{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.noreg p{
+	float: left;
+}
+.noreg a{
+	float: right;
+}
+.login-link{
+	clear: both;
+	margin-top: 10px;
+}
+.login-link a{
+		margin-right: 23px;
+}
+.login-text-phone{
+		width: 340px;
+	margin: 20px auto;
+}
+.phone{
+	width: 338px;
+	height: 45px;
+	border: 1px solid #ccc;
+}
+.phone-bg-img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../img/login/phone-user.jpg) no-repeat;
+	float: left;
+}
+.inp-phone{
+	width: 293px;
+	height: 45px;
+	float: left;
+	border:0;
+}
+.yanzhengma{
+	width: 338px;
+	height: 45px;
+	margin-top: 20px;
+}
+.yanzhengma-img{
+	width: 220px;
+	height: 45px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.yanzhengma-bg-img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../img/login/phone-pwd.jpg) no-repeat;
+	float: left;
+}
+.inp-yanzhengma{
+	width: 175px;
+	height: 45px;
+	float: left;
+	border:0;
+}
+.yanzhengma-select{
+	margin-left: 14px;
+	height: 45px;
+	width: 100px;
+	cursor: pointer;
+	float: right;
+}
+.dongtaima{
+	width: 338px;
+	height: 45px;
+	margin-top: 20px;
+}
+.dongtaima-img{
+	width: 220px;
+	height: 45px;
+	border: 1px solid #ccc;
+	float: left;
+}
+.dongtaima-bg-img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../img/login/phone-pwd.jpg) no-repeat;
+	float: left;
+}
+.inp-dongtaima{
+	width: 175px;
+	height: 45px;
+	float: left;
+	border:0;
+}
+.dongtaima-select{
+	margin-left: 14px;
+	height: 45px;
+	width: 100px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 45px;
+	float: right;
+	border: #4BD1A4 1px solid;
+}
+.dongtaima-select:hover{
+		background: #4BD1A4;
+}
+.dongtaima-select:hover a{
+
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
